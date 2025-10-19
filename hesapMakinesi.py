@@ -8,7 +8,7 @@ elif islem == "-":
     print ("Sonuç:", a - b)
 elif islem == "*":
     print ("Sonuç:", a * b)
- elif islem == "/":
-    print ("Sonuç:", a / b if b |= 0 else "sıfıra bölünemez!"
+elif islem == "/":
+    print ("Sonuç:", a / b if b != 0 else "sıfıra bölünemez!")
 else:
     print("Geçersiz İşlem!")
